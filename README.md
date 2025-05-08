@@ -1,38 +1,46 @@
 # 11S2P2_diakolimpia_projektmunka
 
-Ez az alkalmazás egy konzolos felületet biztosít a Diákolimpia labdarúgó adatbázisának kezeléséhez és statisztikáinak lekérdezéséhez. MySQL adatbázist használ a háttérben, és a MySqlConnector könyvtáron keresztül csatlakozik hozzá.
+⚽ Diákolimpia Labdarúgó Konzolos Alkalmazás
+Ez az alkalmazás egy 🖥️ konzolos felületet biztosít a 🎓 Diákolimpia labdarúgó adatbázisának kezeléséhez és statisztikáinak lekérdezéséhez. 🗄️ MySQL adatbázist használ a háttérben, és a 📦 MySqlConnector könyvtáron keresztül csatlakozik hozzá.
 
-Fő funkciók
+🔧 Fő funkciók
 Az alkalmazás főmenüjéből elérhető modulok:
 
-Statisztikák – Legjobb góllövők, csapatátlagok, legtöbb gólt szerző csapatok lekérdezése.
+📊 Statisztikák – Legjobb góllövők ⚽, csapatátlagok 📈, legtöbb gólt szerző csapatok 🥇 lekérdezése.
 
-Szűrők – Mérkőzések keresése dátum, csapat vagy játékos, illetve eseménytípus alapján (pl. sárga/piros lap).
+🔍 Szűrők – Mérkőzések keresése dátum 🗓️, csapat 🛡️ vagy játékos 🧍 alapján, illetve eseménytípus szerint (pl. 🟨 sárga / 🟥 piros lap).
 
-Játékosok – Keresés diákigazolvány-szám alapján.
+🧑‍🎓 Játékosok – Keresés diákigazolvány-szám alapján 🆔.
 
-Rangsorok/Helyezések – Csoportbeli helyezések megtekintése.
+🏆 Rangsorok / Helyezések – Csoportbeli helyezések 📊 megtekintése.
 
-Kilépés – A program bezárása.
+❌ Kilépés – A program bezárása 🚪.
 
-Követelmények
-.NET Framework vagy .NET Core futtatókörnyezet
+🧾 Követelmények
+⚙️ .NET Framework vagy .NET Core futtatókörnyezet
 
-MySQL adatbázis, amely a következő sémát tartalmazza:
+🗄️ MySQL adatbázis, amely a következő sémát tartalmazza:
 
-Csapat, Jatekos, Merkozes, Esemeny táblák
+🛡️ Csapat
 
-Csatlakozási adatok a connectionFootballDB változóban:
+🧍 Jatekos
 
-pgsql
+🏟️ Merkozes
+
+⚠️ Esemeny táblák
+
+🔗 Csatlakozási adatok
+ini
 Másolás
 Szerkesztés
 server=localhost;database=diakolimpia_labdarugas;user=root;password=;
-Használat
-Fordítsd le és futtasd a projektet egy C# fejlesztőkörnyezetben (pl. Visual Studio vagy dotnet run CLI).
+📌 Tárolva a connectionFootballDB változóban
 
-A program induláskor egy üdvözlő üzenetet jelenít meg.
+▶️ Használat
+🛠️ Fordítsd le és futtasd a projektet egy C# fejlesztőkörnyezetben (pl. Visual Studio 💻 vagy dotnet run CLI 💡).
 
-A főmenüben a megfelelő szám beírásával navigálhatsz az almodulokhoz.
+👋 A program induláskor üdvözlő üzenetet jelenít meg.
 
-A lekérdezések eredményeit a konzolon jeleníti meg, kivéve a hibaüzeneteket, melyek MessageBox formában is megjelenhetnek.
+📋 A főmenüben a megfelelő szám beírásával navigálhatsz az almodulokhoz.
+
+📃 A lekérdezések eredményeit a konzolon jeleníti meg, kivéve a hibaüzeneteket, amelyek MessageBox formában is megjelenhetnek ⚠️.
