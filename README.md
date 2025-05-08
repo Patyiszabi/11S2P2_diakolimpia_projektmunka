@@ -29,15 +29,9 @@ Az alkalmazás főmenüjéből elérhető modulok:
 
 ⚠️ Esemeny táblák
 
-🔗 Csatlakozási adatok
-ini
-Másolás
-Szerkesztés
-server=localhost;database=diakolimpia_labdarugas;user=root;password=;
-📌 Tárolva a connectionFootballDB változóban
 
 ▶️ Használat
-🛠️ Fordítsd le és futtasd a projektet egy C# fejlesztőkörnyezetben (pl. Visual Studio 💻 vagy dotnet run CLI 💡).
+🛠️ Futtasd a projektet egy C# fejlesztőkörnyezetben (pl. Visual Studio 💻 vagy dotnet run CLI 💡).
 
 👋 A program induláskor üdvözlő üzenetet jelenít meg.
 
