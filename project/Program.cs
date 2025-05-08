@@ -642,6 +642,8 @@ namespace diakolimpia_consoleapp_11S2P2
 
         #endregion
 
+        #region Methods for IDSearch
+
         static void SearchPlayerViaID()
         {
             Console.Clear();
@@ -749,6 +751,9 @@ namespace diakolimpia_consoleapp_11S2P2
             Console.WriteLine("\nNyomjon Entert a főmenühöz való visszatéréshez...");
             Console.ReadLine();
         }
+        #endregion
+
+        #region Methods for Group Standings
 
         static void GroupStandings()
         {
@@ -864,6 +869,7 @@ namespace diakolimpia_consoleapp_11S2P2
             Console.WriteLine("\nNyomjon Entert a főmenühöz való visszatéréshez...");
             Console.ReadLine();
         }
+        #endregion
 
     }
 }
