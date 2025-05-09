@@ -19,6 +19,8 @@ namespace diakolimpia_consoleapp_11S2P2
         #region Connection To Databases
         public static string connectionFootballDB = "server=localhost;database=diakolimpia_labdarugas;user=root;password=;";
         public static string connectionArcheryDB = "server=localhost;database=íjászat;user=root;password=;";
+        public static string connectionHandballDB = "server=localhost;database=kézilabda;user=root;password=;"
+        public static string connectionVolleyballDB = "server=localhost;database=röpi2;user=root;password=;"
         #endregion
 
         static void Main(string[] args)
