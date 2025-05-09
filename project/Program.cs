@@ -19,8 +19,8 @@ namespace diakolimpia_consoleapp_11S2P2
         #region Connection To Databases
         public static string connectionFootballDB = "server=localhost;database=diakolimpia_labdarugas;user=root;password=;";
         public static string connectionArcheryDB = "server=localhost;database=íjászat;user=root;password=;";
-        public static string connectionHandballDB = "server=localhost;database=kézilabda;user=root;password=;"
-        public static string connectionVolleyballDB = "server=localhost;database=röpi2;user=root;password=;"
+        public static string connectionHandballDB = "server=localhost;database=kézilabda;user=root;password=;";
+        public static string connectionVolleyballDB = "server=localhost;database=röpi2;user=root;password=;";
         #endregion
 
         static void Main(string[] args)
@@ -325,6 +325,7 @@ namespace diakolimpia_consoleapp_11S2P2
                     MessageBox.Show("Hiba történt: " + ex.Message);
 
                 }
+                connection.Close();
             }
         }
 
@@ -378,6 +379,7 @@ namespace diakolimpia_consoleapp_11S2P2
                 {
                     MessageBox.Show("Hiba történt: " + ex.Message);
                 }
+                connection.Close();
             }
         }
 
@@ -431,6 +433,7 @@ namespace diakolimpia_consoleapp_11S2P2
                 {
                     MessageBox.Show("Hiba történt: " + ex.Message);
                 }
+                connection.Close();
             }
         }
 
@@ -744,6 +747,7 @@ namespace diakolimpia_consoleapp_11S2P2
                 {
                     MessageBox.Show("Hiba történt: " + ex.Message);
                 }
+                connection.Close();
             }
 
             if (!played)
@@ -867,6 +871,7 @@ namespace diakolimpia_consoleapp_11S2P2
                 {
                     MessageBox.Show("Hiba történt: " + ex.Message);
                 }
+                connection.Close();
             }
 
             Console.WriteLine("\nNyomjon Entert a főmenühöz való visszatéréshez...");
